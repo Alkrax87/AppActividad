@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/fragment1"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/fragment2"
+            android:icon="@drawable/ic_baseline_headset_24"
+            android:title="Sonido" />
+        <item
+            android:id="@+id/fragment3"
+            android:icon="@drawable/ic_baseline_web_asset_24"
+            android:title="Sitio Web" />
+        <item
+            android:id="@+id/fragment4"
+            android:icon="@drawable/ic_baseline_double_arrow_24"
+            android:title="Direccionamiento" />
+        <item
+            android:id="@+id/fragment5"
+            android:icon="@drawable/ic_baseline_dvr_24"
+            android:title="Scroll" />
+        <item
+            android:id="@+id/fragment6"
+            android:icon="@drawable/ic_baseline_cloud_24"
+            android:title="Propuesta" />
+    </group>
+</menu>
